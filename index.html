@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>SIXHOLD — The Over-Engineered Cable Organizer</title>
+<meta name="description" content="Six slots. Zero excuses. SIXHOLD is a cable organizer engineered with unreasonable seriousness." />
+<meta name="theme-color" content="#0a0b0d" />
+
+<meta property="og:title" content="SIXHOLD — The Over-Engineered Cable Organizer" />
+<meta property="og:description" content="Six slots. Zero excuses. AI-adjacent cable management for people who take their desk too seriously." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <a class="nav__mark" href="#hero">SIXHOLD<span class="nav__dot">·</span></a>
+  <nav class="nav__links">
+    <a href="#specs">Specs</a>
+    <a href="#tiers">Tiers</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#model-card">Model card</a>
+  </nav>
+  <a class="nav__cta" href="#tiers">Choose yours</a>
+</header>
+
+<!-- ============ HERO ============ -->
+<section id="hero" class="hero">
+  <canvas id="viewport"></canvas>
+
+  <div class="hero__scrim"></div>
+
+  <div class="hero__copy">
+    <p class="eyebrow">SIXHOLD&nbsp;—&nbsp;desk hardware, unreasonably considered</p>
+    <h1>Six slots.<br>Zero excuses.</h1>
+    <p class="hero__sub">A cable organizer engineered like it needed to be. It didn't. We did it anyway.</p>
+    <div class="hero__actions">
+      <a href="#tiers" class="btn btn--solid">See the lineup</a>
+      <a href="#model-card" class="btn btn--ghost">Read the model card</a>
+    </div>
+  </div>
+
+  <div class="hud" id="hud" aria-hidden="true">
+    <div class="hud__row hud__row--head">
+      <span class="hud__dot"></span>
+      <span>SIXHOLD‑1 // LIVE TELEMETRY</span>
+    </div>
+    <div class="hud__row"><span>SLOTS_ENGAGED</span><span id="hud-slots">0 / 6</span></div>
+    <div class="hud__row"><span>CABLE_CHAOS_REDUCTION</span><span id="hud-chaos">0%</span></div>
+    <div class="hud__row"><span>DESK_SURFACE_RECLAIMED</span><span id="hud-desk">0 cm²</span></div>
+    <div class="hud__row"><span>FILE_ACCESS</span><span class="hud__flag">SHOWROOM ONLY</span></div>
+  </div>
+
+  <div class="hero__scroll">
+    <span>Drag to rotate</span>
+    <div class="hero__scroll-bar"><i></i></div>
+  </div>
+</section>
+
+<!-- ============ INTRO / SATIRE ============ -->
+<section class="intro">
+  <p class="intro__kicker">isn't just a cable tray.</p>
+  <h2>It's the byproduct of<br>unprecedented AI<sup>*</sup> research.</h2>
+  <p class="intro__fine">*Alignment achieved via trial, error, and a caliper.</p>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section id="specs" class="features">
+
+  <article class="feature">
+    <div class="feature__tag">GEO_01</div>
+    <h3>Six channels. One angle. No debate.</h3>
+    <p>Every slot is cut at the same 27° lean, so every cable falls into the same resting pose — whether it's a charger, a mouse cord, or something you forgot the name of.</p>
+  </article>
+
+  <article class="feature feature--flip">
+    <div class="feature__tag">GEO_02</div>
+    <h3>Grip that outlasts your patience</h3>
+    <p>Textured slot walls hold cables in place under desk-shake, cat-walk, and the occasional dramatic laptop close. No clips. No latches. Just geometry doing its job.</p>
+  </article>
+
+  <article class="feature">
+    <div class="feature__tag">GEO_03</div>
+    <h3>Six now. Expandable later.</h3>
+    <p>The base module docks edge-to-edge with the next unit, so your cable count can grow the way your cable count actually grows: quietly, then all at once.</p>
+  </article>
+
+</section>
+
+<!-- ============ STAT BAND ============ -->
+<section class="statband">
+  <div class="stat">
+    <span class="stat__num">6</span>
+    <span class="stat__label">Independent slots</span>
+  </div>
+  <div class="stat">
+    <span class="stat__num">27°</span>
+    <span class="stat__label">Constant lean angle</span>
+  </div>
+  <div class="stat">
+    <span class="stat__num">577<small>mm</small></span>
+    <span class="stat__label">Full rack width</span>
+  </div>
+  <div class="stat">
+    <span class="stat__num">0</span>
+    <span class="stat__label">Batteries required</span>
+  </div>
+</section>
+
+<!-- ============ TIERS ============ -->
+<section id="tiers" class="tiers">
+  <p class="section-kicker">Choose your configuration</p>
+  <h2>One rack. Three commitments.</h2>
+
+  <div class="tier-grid">
+    <div class="tier-card">
+      <h3>SIXHOLD Mini</h3>
+      <p class="tier-price">4 slots</p>
+      <p class="tier-desc">For the desk that claims to be minimalist but has a monitor arm, a light bar, and opinions.</p>
+      <ul>
+        <li>4 cable channels</li>
+        <li>217mm footprint</li>
+        <li>Single-piece base</li>
+      </ul>
+    </div>
+
+    <div class="tier-card tier-card--feature">
+      <span class="tier-badge">Most engineered</span>
+      <h3>SIXHOLD</h3>
+      <p class="tier-price">6 slots</p>
+      <p class="tier-desc">The original ratio. Enough capacity for a full battlestation, not enough to become the problem it's solving.</p>
+      <ul>
+        <li>6 cable channels</li>
+        <li>577mm footprint</li>
+        <li>Dockable end caps</li>
+      </ul>
+    </div>
+
+    <div class="tier-card">
+      <h3>SIXHOLD Pro Max</h3>
+      <p class="tier-price">8 slots</p>
+      <p class="tier-desc">For the streaming setup, the home lab, and the person who says "just one more cable" as a lifestyle.</p>
+      <ul>
+        <li>8 cable channels</li>
+        <li>749mm footprint</li>
+        <li>Reinforced spine</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section id="reviews" class="reviews">
+  <p class="section-kicker">Field reports</p>
+  <h2>People who now sleep slightly better</h2>
+
+  <div class="review-grid">
+    <blockquote class="review">
+      <p>"I didn't know my desk had a floor until I used this. Turns out it was always there."</p>
+      <cite>Marcus T. — home lab enjoyer</cite>
+    </blockquote>
+    <blockquote class="review">
+      <p>"Put six cables in it. They stayed. I have not stopped talking about this."</p>
+      <cite>Priya D. — cable management convert</cite>
+    </blockquote>
+    <blockquote class="review">
+      <p>"My partner asked why I was this excited about a piece of plastic. I could not explain it. I am still excited."</p>
+      <cite>Jonah K. — streaming setup, mid-renovation</cite>
+    </blockquote>
+    <blockquote class="review">
+      <p>"Zero updates in six months. It just... keeps holding the cables. Revolutionary, honestly."</p>
+      <cite>Ren O. — professionally skeptical</cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ============ MODEL CARD (satire, no real downloads) ============ -->
+<section id="model-card" class="modelcard">
+  <p class="section-kicker">Technical disclosure</p>
+  <h2>SIXHOLD‑1 Model Card</h2>
+
+  <div class="modelcard__grid">
+    <div class="modelcard__block">
+      <h4>Abstract</h4>
+      <p>SIXHOLD‑1 is a six-slot geometric model for passive cable retention, evaluated on a single desk under laboratory conditions (an apartment). Results generalize to most desks. Limitations include a dependency on cables existing.</p>
+    </div>
+    <div class="modelcard__block">
+      <h4>Release status</h4>
+      <p class="mono">WEIGHTS: <span class="flag">restricted</span><br>
+      GEOMETRY: <span class="flag">showroom render only</span><br>
+      SOURCE FILE: <span class="flag">not distributed</span></p>
+    </div>
+    <div class="modelcard__block">
+      <h4>Peer review</h4>
+      <p>"Solves cable management. Did not expect to feel things about a cable organizer." — anonymous desk-setup forum poster</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer id="contact" class="footer">
+  <div class="footer__top">
+    <span class="footer__mark">SIXHOLD</span>
+    <p>Built as a demo product page. This is a template — swap in your own product, copy, and renders.</p>
+  </div>
+  <div class="footer__links">
+    <a href="#hero">Intro</a>
+    <a href="#specs">Specs</a>
+    <a href="#tiers">Tiers</a>
+    <a href="#model-card">Model card</a>
+  </div>
+  <p class="footer__legal">This page is a portfolio/template demo. Product claims are for illustrative purposes.</p>
+</footer>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "./vendor/three/build/three.module.min.js",
+    "three/addons/": "./vendor/three/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="js/protect.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
